@@ -1,0 +1,157 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6019,        149]
+NotebookOptionsPosition[      5084,        125]
+NotebookOutlinePosition[      5423,        140]
+CellTagsIndexPosition[      5380,        137]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Setting up a brand-new boilerplate", "Title",
+ CellChangeTimes->{{3.776393739288477*^9, 3.776393747192155*^9}, 
+   3.778231753392366*^9},ExpressionUUID->"93de42cc-673a-4d27-8237-\
+63a2e2466c0b"],
+
+Cell["\<\
+Kyungwon Chun
+Sep. 2, 2019\
+\>", "Text",
+ CellChangeTimes->{{3.77639376438066*^9, 
+  3.7763937713573236`*^9}},ExpressionUUID->"c3ede423-40a1-48c3-b5f0-\
+4dc69dd41cc1"],
+
+Cell["\<\
+You can install the latest version of MathSymbolica using the following \
+command:\
+\>", "Text",
+ CellChangeTimes->{{3.778231790030768*^9, 3.7782318158214493`*^9}, {
+  3.7782318471149387`*^9, 3.778231847305985*^9}, {3.778260484424623*^9, 
+  3.77826049072921*^9}},ExpressionUUID->"ac09c153-3ff3-4ced-bc91-\
+f1bcc51583b8"],
+
+Cell[BoxData[
+ RowBox[{"ToExpression", "[", 
+  RowBox[{
+  "URLFetch", "[", 
+   "\"\<https://symbcomp.gist.ac.kr/downloads/InstallSymbComp.m\>\"", "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.776394211389888*^9, 3.776394218548023*^9}, 
+   3.776394332572199*^9, {3.7763943753717327`*^9, 3.776394387576131*^9}, {
+   3.778232029105777*^9, 
+   3.7782320526183653`*^9}},ExpressionUUID->"14c5a6ea-8923-4344-92cd-\
+be7ef3cd9924"],
+
+Cell["\<\
+The new boilerplate is more descriptive in the aspect of codes and outputs.\
+\>", "Text",
+ CellChangeTimes->{{3.7782598956210117`*^9, 3.778259921328465*^9}, {
+  3.7782600416969624`*^9, 
+  3.7782601317582417`*^9}},ExpressionUUID->"6f8d21b9-f4b1-4d40-8453-\
+126a8f3c0179"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"<<", "SymbolicComputing`"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"boilerplateTemplate", "=", 
+   RowBox[{
+   "StringTemplate", "[", 
+    "\"\<This notebook depends on Mathematica `ver` and MathSymbolica \
+`scVer`. Also, the contents reflect the last execution on `date`.\>\"", 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Print", "[", 
+  RowBox[{"boilerplateTemplate", "[", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\"\<scVer\>\"", "\[Rule]", "$SCVersion"}], ",", 
+     RowBox[{"\"\<ver\>\"", "\[Rule]", "$Version"}], ",", " ", 
+     RowBox[{"\"\<date\>\"", "\[Rule]", 
+      RowBox[{"DateString", "[", "]"}]}]}], "\[RightAssociation]"}], "]"}], 
+  "]"}]}], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.776393857518125*^9, 3.776393861658778*^9}, {
+   3.776393894028404*^9, 3.7763939320494423`*^9}, {3.776394110883333*^9, 
+   3.776394115108281*^9}, {3.7763947410044107`*^9, 3.776394743521874*^9}, {
+   3.776394916875177*^9, 3.776394917295472*^9}, {3.7763952744253397`*^9, 
+   3.7763953218647823`*^9}, {3.776395436925413*^9, 3.776395469786297*^9}, {
+   3.776395570155908*^9, 3.776395575750225*^9}, {3.776395631477947*^9, 
+   3.776395736380679*^9}, {3.7763957733496723`*^9, 3.776395774084097*^9}, {
+   3.776395834620873*^9, 3.776395850049914*^9}, {3.776395881261763*^9, 
+   3.776395881418025*^9}, {3.7763959182810593`*^9, 3.776395925732538*^9}, 
+   3.776396002243847*^9, {3.776396147739504*^9, 3.7763962343055983`*^9}, {
+   3.7763962644408007`*^9, 3.776396315145733*^9}, {3.776396346166348*^9, 
+   3.776396364554987*^9}, {3.776397240018711*^9, 3.7763972582992783`*^9}, {
+   3.778232095767559*^9, 3.778232098558729*^9}, {3.7782321513254967`*^9, 
+   3.778232243668891*^9}, {3.778232276365912*^9, 3.7782322948227587`*^9}, {
+   3.778232328966342*^9, 3.7782324148532677`*^9}, {3.778259981390111*^9, 
+   3.7782600111389503`*^9}, {3.778260058275457*^9, 3.778260060411284*^9}, 
+   3.778260163790367*^9},ExpressionUUID->"b326942f-5ade-437e-a10a-\
+1265f3b1d599"],
+
+Cell[BoxData["\<\"This notebook depends on Mathematica 12.0.0 for Mac OS X \
+x86 (64-bit) (April 7, 2019) and MathSymbolica 5.1.2 (July 22, 2019). Also, \
+the contents reflect the last execution on Tue 24 Sep 2019 05:40:14.\"\>"], \
+"Print",
+ CellChangeTimes->{{3.7763954640542316`*^9, 3.77639547185399*^9}, 
+   3.776395580665092*^9, {3.776395703029093*^9, 3.776395738450953*^9}, 
+   3.776395775912273*^9, 3.7763958517603407`*^9, 3.776395883269018*^9, 
+   3.776395927363748*^9, 3.776396004486939*^9, 3.77639623783219*^9, {
+   3.7763963195486603`*^9, 3.7763963675078697`*^9}, 3.776396398719103*^9, {
+   3.776397244148748*^9, 3.77639726058852*^9}, {3.7782322225986156`*^9, 
+   3.7782322553265877`*^9}, 3.778232302093141*^9, {3.778232332420397*^9, 
+   3.778232353126602*^9}, {3.7782323942763233`*^9, 3.778232417348898*^9}, 
+   3.778260014919978*^9},
+ CellLabel->
+  "During evaluation of (Local) \
+In[649]:=",ExpressionUUID->"53f499d7-03ab-48c5-bdbb-d7a2efed4ff7"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{Automatic, 493}, {Automatic, -80}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 200, 3, 98, "Title",ExpressionUUID->"93de42cc-673a-4d27-8237-63a2e2466c0b"],
+Cell[783, 27, 177, 6, 58, "Text",ExpressionUUID->"c3ede423-40a1-48c3-b5f0-4dc69dd41cc1"],
+Cell[963, 35, 330, 7, 35, "Text",ExpressionUUID->"ac09c153-3ff3-4ced-bc91-f1bcc51583b8"],
+Cell[1296, 44, 425, 10, 44, "Input",ExpressionUUID->"14c5a6ea-8923-4344-92cd-be7ef3cd9924"],
+Cell[1724, 56, 280, 6, 35, "Text",ExpressionUUID->"6f8d21b9-f4b1-4d40-8453-126a8f3c0179"],
+Cell[CellGroupData[{
+Cell[2029, 66, 2064, 38, 237, "Input",ExpressionUUID->"b326942f-5ade-437e-a10a-1265f3b1d599",
+ InitializationCell->True],
+Cell[4096, 106, 960, 15, 63, "Print",ExpressionUUID->"53f499d7-03ab-48c5-bdbb-d7a2efed4ff7"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
