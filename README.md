@@ -9,3 +9,4 @@ Lecture notes on Wolfram Language and MathSymbolica for students at Gwangju Scie
 * day 1(Sep 9, 2019): [Setting up a brand-new boilerplate](gsa_20190909.nb)
 * day 2(Sep 16, 2019): [An exploratory approach on a math problem](gsa_20190916.nb)
 * day 3(Sep 23, 2019): [Graphs and networks](gsa_20190923.nb)
+* day 4(Sep 30, 2019): [Tackle math problem, Import data on web](gsa_20190924.nb)
