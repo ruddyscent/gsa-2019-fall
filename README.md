@@ -4,7 +4,7 @@ Lecture notes on Wolfram Language and MathSymbolica for students at Gwangju Scie
  * Instructor: Kyungwon Chun at BioBrain, Inc.
  * References: 
   1. [S. Wolfram, An Elementary Introduction to the Wolfram Language, 2nd ed. Wolfram Media, Inc., 2017.](https://www.wolfram.com/language/elementary-introduction/2nd-ed/)
-  1. [J. Stewart, Calculus: Early Transcendentals, 8th ed. Boston, MA, USA: Brooks Cole, 2015.] (https://www.stewartcalculus.com/media/17_home.php)
+  1. [J. Stewart, Calculus: Early Transcendentals, 8th ed. Boston, MA, USA: Brooks Cole, 2015.](https://www.stewartcalculus.com/media/17_home.php)
   
 ## Lectures Notes
 * day 1(Sep 9, 2019): [Setting up a brand-new boilerplate](gsa_20190909.nb)
