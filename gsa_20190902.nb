@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      6019,        149]
-NotebookOptionsPosition[      5084,        125]
-NotebookOutlinePosition[      5423,        140]
-CellTagsIndexPosition[      5380,        137]
+NotebookDataLength[      6094,        150]
+NotebookOptionsPosition[      5158,        126]
+NotebookOutlinePosition[      5497,        141]
+CellTagsIndexPosition[      5454,        138]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -26,11 +26,12 @@ Cell["Setting up a brand-new boilerplate", "Title",
 63a2e2466c0b"],
 
 Cell["\<\
-Kyungwon Chun
-Sep. 2, 2019\
+Kyungwon Chun, kwchun@biobrain.kr
+Mon. Sep. 2, 2019\
 \>", "Text",
- CellChangeTimes->{{3.77639376438066*^9, 
-  3.7763937713573236`*^9}},ExpressionUUID->"c3ede423-40a1-48c3-b5f0-\
+ CellChangeTimes->{{3.77639376438066*^9, 3.7763937713573236`*^9}, {
+  3.781309640880797*^9, 
+  3.781309651856621*^9}},ExpressionUUID->"c3ede423-40a1-48c3-b5f0-\
 4dc69dd41cc1"],
 
 Cell["\<\
@@ -141,14 +142,14 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 200, 3, 98, "Title",ExpressionUUID->"93de42cc-673a-4d27-8237-63a2e2466c0b"],
-Cell[783, 27, 177, 6, 58, "Text",ExpressionUUID->"c3ede423-40a1-48c3-b5f0-4dc69dd41cc1"],
-Cell[963, 35, 330, 7, 35, "Text",ExpressionUUID->"ac09c153-3ff3-4ced-bc91-f1bcc51583b8"],
-Cell[1296, 44, 425, 10, 44, "Input",ExpressionUUID->"14c5a6ea-8923-4344-92cd-be7ef3cd9924"],
-Cell[1724, 56, 280, 6, 35, "Text",ExpressionUUID->"6f8d21b9-f4b1-4d40-8453-126a8f3c0179"],
+Cell[783, 27, 251, 7, 58, "Text",ExpressionUUID->"c3ede423-40a1-48c3-b5f0-4dc69dd41cc1"],
+Cell[1037, 36, 330, 7, 35, "Text",ExpressionUUID->"ac09c153-3ff3-4ced-bc91-f1bcc51583b8"],
+Cell[1370, 45, 425, 10, 30, "Input",ExpressionUUID->"14c5a6ea-8923-4344-92cd-be7ef3cd9924"],
+Cell[1798, 57, 280, 6, 35, "Text",ExpressionUUID->"6f8d21b9-f4b1-4d40-8453-126a8f3c0179"],
 Cell[CellGroupData[{
-Cell[2029, 66, 2064, 38, 237, "Input",ExpressionUUID->"b326942f-5ade-437e-a10a-1265f3b1d599",
+Cell[2103, 67, 2064, 38, 194, "Input",ExpressionUUID->"b326942f-5ade-437e-a10a-1265f3b1d599",
  InitializationCell->True],
-Cell[4096, 106, 960, 15, 63, "Print",ExpressionUUID->"53f499d7-03ab-48c5-bdbb-d7a2efed4ff7"]
+Cell[4170, 107, 960, 15, 63, "Print",ExpressionUUID->"53f499d7-03ab-48c5-bdbb-d7a2efed4ff7"]
 }, Open  ]]
 }, Open  ]]
 }
