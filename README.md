@@ -13,3 +13,7 @@ Lecture notes on Wolfram Language and MathSymbolica for students at Gwangju Scie
 * Day 3(Sep 23, 2019): [Graphs and networks](gsa_20190923.nb)
 * Day 4(Sep 30, 2019): [Tackle a math problem, Import data on web](gsa_20190930.nb)
 * Day 5(Oct 21, 2019): [Tackle a math problem](gsa_20191021.nb)
+* Day 6(Oct 28, 2019): [Graph Analysis on The Bus Route of Gwangju](gsa_20191028.nb)
+* Day 7(Nov 4, 2019): [GitHub Tutorial](gsa_20191104.nb)
+* Day 8(Nov 11, 2019): No lecture note(intensive support of the project)
+* Day 9(Nov 25, 2019): No lecture note(intensive support of the project)
