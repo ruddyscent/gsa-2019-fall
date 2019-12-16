@@ -9,7 +9,7 @@ Lecture notes on Wolfram Language and MathSymbolica for students at Gwangju Scie
  1. [R. Hodson, Ry’s Git Tutorial, En. RyPress, 2014.](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC)
 
   
-## Lectures Notes
+## Lecture Notes
 * Day 1(Sep 9, 2019): [Setting up a brand-new boilerplate](gsa_20190909.nb)
 * Day 2(Sep 16, 2019): [An exploratory approach on a math problem](gsa_20190916.nb)
 * Day 3(Sep 23, 2019): [Graphs and networks](gsa_20190923.nb)
@@ -20,4 +20,4 @@ Lecture notes on Wolfram Language and MathSymbolica for students at Gwangju Scie
 * Day 8(Nov 11, 2019): No lecture note(intensive support of the project)
 * Day 9(Nov 25, 2019): No lecture note(intensive support of the project)
 * Day 10(Nov 29, 2019): No lecture note(intensive support of the project)
-* Day 11(Nov 29, 2019): About the next topics
+* Day 11(Dec 09, 2019): About the future topics(gsa_20191209.nb)
