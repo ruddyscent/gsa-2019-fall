@@ -20,4 +20,4 @@ Lecture notes on Wolfram Language and MathSymbolica for students at Gwangju Scie
 * Day 8(Nov 11, 2019): No lecture note(intensive support of the project)
 * Day 9(Nov 25, 2019): No lecture note(intensive support of the project)
 * Day 10(Nov 29, 2019): No lecture note(intensive support of the project)
-* Day 11(Dec 09, 2019): About the future topics(gsa_20191209.nb)
+* Day 11(Dec 09, 2019): [About the future topics](gsa_20191209.nb)
